@@ -1,10 +1,9 @@
+asa.tst.swp
 .terraform.lock.hcl
-terraform.tfstate 
-terraform.tfstate.backup
+.terraform.tfstate
+function/.terraform.tfstate
 .terraform
-.terraform/*
-**/.terraform/
-*.tfstate
-*.tfstate.backup
+.terraform/
+terraform.tfstate
+terraform.tfstate.backup
 function/terraform.tfstate
-function/.terraform.lock.hcl
