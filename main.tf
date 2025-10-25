@@ -60,6 +60,7 @@ resource "aws_s3_bucket_object" "object" {
   bucket       = aws_s3_bucket.s3.bucket
   key          = "index.html"
   source       = "./index.html"
+  etag         = filemd5("./index.html")
   acl          = "public-read"
   content_type = "text/html"
 }
